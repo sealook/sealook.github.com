@@ -8,5 +8,4 @@ title: sealook's blog
 author: sealook
 email: "mrcnsdote@gmail.com"
 # Jekyll server settings
-auto:         true
-server:       ture
+auto:true
