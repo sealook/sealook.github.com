@@ -8,20 +8,22 @@
 {% for tag in page.tags %}
     <a class="label" href="/tag/#{{ tag }}">{{ tag }}</a>
 {% endfor %}</div>
-<!-- Duoshuo Comment BEGIN -->
-    <div class="ds-thread"></div>
-    <script type="text/javascript">
-    var duoshuoQuery = {short_name:"{{site:duoshuoShortname}}"};
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = 'http://static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] 
-        || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-    </script>
-<!-- Duoshuo Comment END -->
+
+    <!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"sealook"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- Duoshuo Comment END -->
+
 </div>
 
 <ul class="pager">
