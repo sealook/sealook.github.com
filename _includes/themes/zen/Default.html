@@ -7,6 +7,12 @@
             {{ page.title }}
         </title>
         <meta name="author" content="{{ site.author }}" />
+		<!-- no cache begin  -->
+		<META HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate"> 
+		<META HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT"> 
+		<META HTTP-EQUIV="expires" CONTENT="-1"> 
+		<!-- no cache end -->
         <link rel="stylesheet" type="text/css" href="/assets/zen/style.css" media="all">
         <link rel="alternate" type="application/rss+xml" title="RSS for {{ site.title }}"
         href="/feed.xml">
