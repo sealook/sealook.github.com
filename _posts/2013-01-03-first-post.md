@@ -1,6 +1,6 @@
 ---
 date: 2013-01-03 19:00:32
-title: first post
+title: First post
 layout: post
 tags:
     - Test
