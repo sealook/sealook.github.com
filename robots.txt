@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://sealook.github.com/sitemap.xml 
