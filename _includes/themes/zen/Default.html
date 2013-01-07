@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            {{ page.title }}
+        </title>
+        <meta name="author" content="{{ site.author }}" />
+		<!-- no cache begin  -->
+		<META HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate"> 
+		<META HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT"> 
+		<META HTTP-EQUIV="expires" CONTENT="0"> 
+		<!-- no cache end -->
+        <link rel="stylesheet" type="text/css" href="/assets/zen/style.css" media="all">
+        <link rel="alternate" type="application/rss+xml" title="RSS for {{ site.title }}"
+        href="/feed.xml">
+    </head>
+    
+    <body onload="prettyPrint()">
+        <div id="wrap">
+            <div id="header">
+                <h1>
+                    <a href="/"> Sealook' Blog </a>
+                </h1>
+                <p>
+                    What's life without whimsy?
+                </p>
+            </div>
+            <div id="main">
+                <div id="sidebar">
+                    <ul class="nav">
+                        {% for link in site.navigation %} 
+                        {% assign current = nil %} 
+                        {% if page.url == link.url or page.layout == link.layout %} 
+                        {% assign current = ' class="current"' %} 
+                        {% endif %}
+                        <li{{ current }}>
+                            <a href="{{ link.url }}">
+                                {{ link.text }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div id="content">
+                    <div class="topbar">
+                        <a href="/feed.xml" class="rss">
+                            RSS
+                        </a>
+                    </div>
+                    {{ content }}
+                </div>
+            </div>
+            <div id="footer">
+                <p>
+                    Base on
+                    <a href="http://www.premiumpixels.com/freebies/little-notepad-design-psd/">
+                        Orman Clark
+                    </a>
+                    &amp; Theme by
+                    <a href="https://github.com/YCF/ycf.github.com">
+                        Feng
+                    </a>
+                    |
+                    <span class="credit">
+                        Powered by
+                        <a href="https://github.com/mojombo/jekyll">
+                            Jekyll
+                        </a>
+                        &amp;
+                        <a href="https://github.com/">
+                            GitHub
+                        </a>
+                    </span>
+                    |
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">
+                        CC BY-NC-SA 3.0
+                    </a>
+                </p>
+            </div>
+        </div>
+        <script src="/assets/jquery.min.js">
+        </script>
+        <script src="/assets/google-code-prettify/prettify.js">
+        </script>
+        <script type="text/javascript" src="http://tajs.qq.com/stats?sId=19326457"
+        charset="UTF-8">
+        </script>
+		
+{% if page.url != "/" %}
+<script>
+$(function(){
+  $(document).keydown(function(e) {
+    var url = false;
+        if (e.which == 37 || e.which == 74) {  // Left arrow key code
+            {% if page.previous %}
+        url = '{{page.previous.url}}';
+        {% endif %}
+        }
+        else if (e.which == 39 || e.which == 75) {  // Right arrow key code
+            {% if page.next %}
+        url = '{{page.next.url}}';
+        {% endif %}
+        }
+        if (url) {
+            window.location = url;
+        }
+  });
+})
+</script>
+{% endif %}
+
+	{% include google_analysis.md %}
+    </body>
+
+</html>
