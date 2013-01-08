@@ -7,7 +7,7 @@ title: 404
 </div>
 <div class="postsList wrapper">
   {% capture post_year1 %}{{ 'now' | date: '%Y' }}{% endcapture %}
-<h2>{{ post_year1 }}</h2>
+<h2 align="center">{{ post_year1 }}</h2>
 <ul>
 {% for post in site.posts %}
 {% capture post_year2 %}{{ post.date | date: '%Y' }}{% endcapture %}
