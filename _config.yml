@@ -1,7 +1,7 @@
 markdown: rdiscount 
 permalink: /:categories/:title 
 title: Sealook' Blog
-url: http://sealook.github.com
+url: http://look618.com
 subscribe: http://sealook.github.com/feed.xml
 exclude: [ README.md, newpost.rb ]
 domain: sealook.github.com
