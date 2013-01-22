@@ -10,5 +10,6 @@ tags: tech
 测试加亮功能：
 {% highlight c %}
 亮了吗？
+显示正常吗？
 {% endhighlight %}
 
