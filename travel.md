@@ -1,8 +1,8 @@
 ---
 layout: index
-title: "Kingauthur's 走走停停"
-description: "池逸欣的走走停停，用来记录和分享旅行途中的一切，包括看到的，听到的，遇到的，想到的"
-keywords: "池逸欣，走走停停，旅行"
+title: "Sealook's 生活"
+description: "昨天，今天，明天"
+keywords: "生活细节，玩玩"
 ---
 {% include JB/setup %}
 

@@ -1,8 +1,8 @@
 ---
 layout: index
-title: "Kingauthur's 生活志"
-description: "池逸欣的生活志，用来记录和分享生活的点点滴滴，爱生活生命才精彩"
-keywords: "池逸欣，生活志，生活点点滴滴"
+title: "Sealook's 闲扯"
+description: "东拉西扯"
+keywords: "八卦,嬉笑怒骂"
 ---
 {% include JB/setup %}
 
