@@ -1,8 +1,8 @@
 ---
 layout: index
-title: "Kingauthur's 技术贴"
-description: "池逸欣的技术贴，用来记录和分享遇到的新鲜好玩的技术，或者互联网产品，或者工作上遇到的技术难题"
-keywords: "池逸欣，技术贴，互联网"
+title: "Sealook's 技术"
+description: "学习笔记"
+keywords: "技术，互联网"
 ---
 {% include JB/setup %}
 
