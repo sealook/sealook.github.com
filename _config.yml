@@ -17,10 +17,10 @@ paginate: 5
 # set for rss feed
 name: Sealook's Blog
 description: What's life without whimsy?
-url: http://sealook.github.com/
+url: http://look618.com
 
 # set for full text search
-searchindex: yes
+# searchindex: yes
 
 title : Sealook's Blog
 tagline: just test
@@ -39,7 +39,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://sealook.github.com/
+production_url : http://look618.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
