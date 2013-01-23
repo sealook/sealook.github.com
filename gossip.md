@@ -34,5 +34,5 @@ keywords: "八卦,嬉笑怒骂"
 </div>
 
 <script type="text/javascript">
-	showCurrentItem(document.getElementById("menu-item-life"));
+	showCurrentItem(document.getElementById("menu-item-gossip"));
 </script>

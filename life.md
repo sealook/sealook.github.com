@@ -35,5 +35,5 @@ keywords: "生活细节，玩玩"
 
 
 <script type="text/javascript">
-	showCurrentItem(document.getElementById("menu-item-travel"));
+	showCurrentItem(document.getElementById("menu-item-life"));
 </script>
