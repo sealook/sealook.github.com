@@ -8,7 +8,7 @@ keywords: "生活细节，玩玩"
 
 <div id="content">
     <article idd="post_list">
-      {% for post in site.categories.travel %}
+      {% for post in site.categories.life %}
 	        <section class="post">
 		          <h2><a href="{{ BASE_PATH }}{{ post.url }}" class="title">{{ post.title }}</a></h2>
 		          <small class="meta">{{ post.date | date: "%m - %d - %Y" }}</small>

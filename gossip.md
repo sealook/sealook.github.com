@@ -8,7 +8,7 @@ keywords: "八卦,嬉笑怒骂"
 
 <div id="content">
     <article id="post_list">
-      {% for post in site.categories.life %}
+      {% for post in site.categories.gossip %}
 	        <section class="post">
 		          <h2><a href="{{ BASE_PATH }}{{ post.url }}" class="title">{{ post.title }}</a></h2>
 		          <small class="meta">{{ post.date | date: "%m - %d - %Y" }}</small>
