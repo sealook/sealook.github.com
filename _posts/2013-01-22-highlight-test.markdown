@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "测试加亮"
-date: 2013-01-22 21:03
-categories: octopress
-comments: true
-tags: tech
+title: "加亮测试"
+description: "测试加亮功能"
+img: 
+keywords: "加亮"
+category: tech
+tags: [加亮,git,测试]
 ---
+{% include JB/setup %}
 
 测试加亮功能：
 {% highlight c %}
@@ -13,3 +15,4 @@ tags: tech
 显示正常吗？
 {% endhighlight %}
 
+    这个呢？
