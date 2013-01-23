@@ -20,7 +20,7 @@ description: What's life without whimsy?
 url: http://sealook.github.com/
 
 # set for full text search
-# searchindex: yes
+searchindex: yes
 
 title : Sealook's Blog
 tagline: just test
