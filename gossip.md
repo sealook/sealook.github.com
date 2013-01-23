@@ -1,19 +1,19 @@
 ---
 layout: index
-title: "Sealook's 生活"
-description: "昨天，今天，明天"
-keywords: "生活细节，玩玩"
+title: "Sealook's 闲扯"
+description: "东拉西扯"
+keywords: "八卦,嬉笑怒骂"
 ---
 {% include JB/setup %}
 
 <div id="content">
-    <article idd="post_list">
-      {% for post in site.categories.travel %}
+    <article id="post_list">
+      {% for post in site.categories.life %}
 	        <section class="post">
 		          <h2><a href="{{ BASE_PATH }}{{ post.url }}" class="title">{{ post.title }}</a></h2>
 		          <small class="meta">{{ post.date | date: "%m - %d - %Y" }}</small>
 		        <div class="content">
-		        	 {{ post.content | split:'<!--break-->' | first }}
+					 {{ post.content | split:'<!--break-->' | first }}
 		        </div>
 		    	<!-- 标签 -->
 		        <ul class="tag_box inline">
@@ -33,7 +33,6 @@ keywords: "生活细节，玩玩"
   第1页/共1页 前一页 1 后一页
 </div>
 
-
 <script type="text/javascript">
-	showCurrentItem(document.getElementById("menu-item-travel"));
+	showCurrentItem(document.getElementById("menu-item-life"));
 </script>
