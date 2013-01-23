@@ -94,7 +94,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name :
+      short_name :sealook
     livefyre :
       site_id : 123
     intensedebate :
