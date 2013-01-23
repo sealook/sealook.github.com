@@ -13,7 +13,7 @@ keywords: "生活细节，玩玩"
 		          <h2><a href="{{ BASE_PATH }}{{ post.url }}" class="title">{{ post.title }}</a></h2>
 		          <small class="meta">{{ post.date | date: "%m - %d - %Y" }}</small>
 		        <div class="content">
-		        	 {{ post.content | split:'<!--break-->' | first }}
+					 {{ post.content | split:'<!--break-->' | first }}
 		        </div>
 		    	<!-- 标签 -->
 		        <ul class="tag_box inline">
@@ -32,7 +32,6 @@ keywords: "生活细节，玩玩"
 <div id="pagination">
   第1页/共1页 前一页 1 后一页
 </div>
-
 
 <script type="text/javascript">
 	showCurrentItem(document.getElementById("menu-item-life"));
