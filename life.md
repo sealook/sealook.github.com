@@ -7,7 +7,7 @@ keywords: "生活细节，玩玩"
 {% include JB/setup %}
 
 <div id="content">
-    <article idd="post_list">
+    <article id="post_list">
       {% for post in site.categories.life %}
 	        <section class="post">
 		          <h2><a href="{{ BASE_PATH }}{{ post.url }}" class="title">{{ post.title }}</a></h2>
