@@ -5,7 +5,7 @@ description: "Octopress中文编码问题"
 comments: true
 categories: tech
 keywords: "中文编码，win7，octopress"
-tags: [octopress，中文编码]
+tags: [octopress, 中文编码]
 ---
 费了好大劲儿在win7系统下用Octopress搭建好博客（[鸣谢](http://chenzhiwei.net/2012/07/07/this-is-the-first-article/)），欢欢喜喜写了po，中文竟然是乱码。试了修改环境变量：
 
