@@ -3,7 +3,7 @@ layout: post
 title: "读读"
 description: "太对症了！"
 comments: true
-categories: gossip
+category: gossip
 keywords: "箴言，自省"
 tags: [语录, 得电]
 ---
