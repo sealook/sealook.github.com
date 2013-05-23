@@ -3,7 +3,7 @@ layout: post
 title: "Octopress 中文编码问题"
 description: "Octopress中文编码问题"
 comments: true
-categories: note
+categories: tech
 keywords: "中文编码，win7，octopress"
 tags: [octopress, 中文编码]
 ---
