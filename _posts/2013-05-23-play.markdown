@@ -11,7 +11,8 @@ tags: [语录, 得电]
 2.负责任 Be responsible 
 3.不道人是非 Never gossip 
 4.愿意帮忙 Be willing to help 
-5.看起来舒服 Be pleasant to the eye. 
+5.看起来舒服 Be pleasant to the eye
 6.说话有条理 Speak logically 
 7.不咄咄逼人 Never drive people up the wall 
-8.替人着想 Stand in others' shoes.
+8.替人着想 Stand in others' shoes
+    
