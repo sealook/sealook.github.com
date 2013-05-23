@@ -34,6 +34,12 @@
         showCurrentItem(document.getElementById("menu-item-gossip"));
       </script>
     {% endif %}
+    {% if page.categories[0] == 'note' %}
+      <span class="category_box"><a href="/gossip.html">笔记</a></span>
+      <script type="text/javascript">
+        showCurrentItem(document.getElementById("menu-item-note"));
+      </script>
+    {% endif %}
   </div>
 
   <br/>
