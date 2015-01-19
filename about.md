@@ -21,7 +21,7 @@ keywords: "科研民工，折腾爱好者"
 	</div>
 
 	<p id="icon">
-		<img src="/assets/custom/photos/body1_small.png"/>
+		<img src="/assets/custom/photos/about-pic.png"/>
 	</p>
  
 </div>
