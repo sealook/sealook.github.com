@@ -9,11 +9,8 @@ keywords: "科研民工，折腾爱好者"
 <div id="content">
 	<div id="about" class="post">
 
-		<p>一只科研民工</p>
+		<p>一只科研民工， 热爱篮球，爱四处溜达。</p>
 
-		<p>热爱篮球</p>
-
-		<p>爱四处溜达</p>
 
 		<p>联系方式：</p>
 		<p>E-mail: mrcnsdote [at] gmail.com</p>
