@@ -15,10 +15,10 @@ keywords: "科研民工，折腾爱好者"
 
 		<p>联系方式：</p>
 		<p>Gtalk: mrcnsdote [a] gmail.com</p>
-	<!-- 	<p>微薄： <strong><a href='http://weibo.com/kingauthur'>喝果汁de吸血鬼</a></strong></p>
+	 	<p>微薄： <strong><a href='http://weibo.com/sealook'>sealook</a></strong></p>
 	</div>
 
-	<p id="icon">
+	<!-- <p id="icon">
 		<img src="/assets/custom/photos/body1_small.png"/>
 	</p>
  -->
