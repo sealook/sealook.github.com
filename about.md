@@ -18,10 +18,10 @@ keywords: "科研民工，折腾爱好者"
 	 	<p>微薄： <strong><a href='http://weibo.com/sealook'>sealook</a></strong></p>
 	</div>
 
-	<!-- <p id="icon">
-		<img src="/assets/custom/photos/body1_small.png"/>
+	<p id="icon">
+		<img src="/assets/custom/photos/about-pic.jpg"/>
 	</p>
- -->
+ 
 </div>
 
 <script type="text/javascript">
