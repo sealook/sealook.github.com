@@ -11,7 +11,9 @@ keywords: "科研民工，折腾爱好者"
 
 		<p>一只科研民工</p>
 
-		
+		<p>热爱篮球</p>
+
+		<p>爱四处溜达</p>
 
 		<p>联系方式：</p>
 		<p>Gtalk: mrcnsdote [a] gmail.com</p>
