@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "博客主题"
+title: "Test"
 description: "Test "
 keywords: "github,博客"
 category: tech
