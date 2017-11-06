@@ -9,7 +9,7 @@ keywords: "科研民工，折腾爱好者"
 <div id="content">
 	<div id="about" class="post">
 
-		<p>一只科研民工， 热爱篮球，爱四处溜达。</p>
+		<p>已婚科研狗， 行走在人生边上。</p>
 
 
 		<p>联系方式：</p>
